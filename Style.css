@@ -1,0 +1,80 @@
+.body {
+    margin: 0%;
+}
+.background {
+    width:100vw;
+    height: 100vh;
+    background-image: url(background.png); /* url is used to locate the image*/
+    background-size:cover;
+    background-repeat: repeat-x;
+    overflow-x: hidden;
+    position: absolute;
+}
+.block {
+    position: absolute;
+    width: 80px;
+    height: 220px;
+    background-image: url("flame.gif");
+    background-size: cover;
+    margin-top: 660px;
+}
+.boy {
+    position: absolute; /* to make the css only apply to the image only. */
+    height: 300px;
+    margin-top: 550px;
+}
+.score {
+    width : 4.1vw;
+    height: 3.5vh;
+    border-radius: 5px;
+    background-color: gold;
+    position: absolute;
+    font-size: 200%;
+    font-family: "Arial";
+    font-weight: 200;
+    margin-left: 5%;
+    margin-top: 53px;
+}
+.game_over {
+    position: absolute;
+    width: 100vw;
+    height: 80vh;
+    margin-top: 10%;
+    color: darkviolet;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    visibility: hidden;
+
+    font-size: 90px;
+    font-family: "Cambria";
+    font-weight: bold;
+}
+.btn {
+    width: 400px;
+    height: 45px;
+    background-color: chartreuse;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Segoe UI";
+    border-style:none;
+    border-radius: 5px;
+
+    cursor:pointer;
+}
+.esc {
+    position: absolute;
+    width: 100vw;
+    height: 60vh;
+    margin-top: 20%;
+    color: grey;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    visibility: hidden;
+
+    font-size: 90px;
+    font-family: "MonoLisa";
+    font-weight: 500;
+
+}

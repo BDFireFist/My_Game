@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>2D Game</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body class="body" onkeyup="keyCheck(event);">
+    <div class="background" id="background">
+        <div class="score" id="score">0</div>
+        <div class="esc" id="esc"></div>
+        <img src="Idle (1).png" alt="Boy" class="boy" id="boy"/>
+    </div>
+
+    <div class="game_over" id="gameOver">
+        <div style="color: crimson; font-size:120%">Game Over</div>
+        <div class="your_score" id="yourScore">Your Score</div>
+        <div id="endScore">0</div>
+        <button class="btn" id="btn" onclick="re()">Try Again</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
