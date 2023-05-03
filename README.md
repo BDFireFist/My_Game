@@ -1,5 +1,7 @@
 # My_Game
 for anyone whow want to have the game.
-1. open index.html file 
-2.run it in browser 
-done
+
+1. Downoad all the files to a file. <br>
+2. open index.html file in a browser. <br>
+3. run it in a browser <br>
+ Done
