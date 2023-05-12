@@ -10,10 +10,6 @@ var runKey = 68; // this for easier configuration of for later changes
 var jumpKey = 87;
 var escapeKey = 27;
 var boyRunSpeed = 100;
-var boySlowSpeed = 500;
-var slowWorkerId = 0;
-var boyFastSpeed = 50;
-var fastWorkerId = 0;
 var blockSpeed = 100;
 var jumpSpeed = 90;
 var backgroundMusic = new Audio("Background Music.mp3")
@@ -243,5 +239,3 @@ function dead() {
 function re() {
     location.reload(); // this "location" command resets the code (refresh)
 }
-
-
